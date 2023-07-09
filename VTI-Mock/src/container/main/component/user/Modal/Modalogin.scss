@@ -1,0 +1,25 @@
+.form-config {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .config-login {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid;
+        padding: 40px;
+        h3 {
+            color: red;
+            text-align: center;
+            font-size: larger;
+        }
+        p {
+            font-size: larger;
+        }
+        button {
+            padding: 12px;
+            background-color: brown;
+        }
+    }
+}
+
+

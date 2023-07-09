@@ -1,0 +1,23 @@
+.donation-config {
+    display: flex;
+    padding: 60px;
+
+    .main-table {
+        flex: 1;
+        .title-config {
+            text-align: center;
+            color: brown;
+        }
+
+        .table-donation {
+
+        }
+    }
+
+
+
+    .cart-donation {
+        margin-left: 20px;
+        flex: 1;
+    }
+}

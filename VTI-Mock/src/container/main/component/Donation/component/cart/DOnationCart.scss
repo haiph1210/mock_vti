@@ -1,0 +1,16 @@
+.config-card{
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    td,th{
+        text-align: center;
+    }
+    .button-config{
+        padding: 20px;
+        border-radius: 10px;
+        background-color: rgb(240, 44, 240);
+        font-size: larger;
+        border: none;
+    }
+}

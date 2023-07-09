@@ -1,0 +1,49 @@
+$btn: (
+    padding: 20px,
+    color : red
+);
+$active: (
+    border-bottom: 1px solid,
+);
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+
+    .main-home {
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .title {
+            font-size: 2rem;
+            color: palevioletred;
+        }
+
+        .title-2 {
+            font-size: 1.5rem;
+        }
+
+        .button-config {
+            .button-1 {
+                padding: map-get($map: $btn, $key: padding);
+                border-radius: 10px;
+                margin: 5px;
+                font-size: larger;
+                border: none;
+            }
+
+            .button-2 {
+                padding: map-get($map: $btn, $key: padding);
+                border-radius: 10px;
+                margin: 5px;
+                font-size: larger;
+                border: none;
+            }
+            .active {
+                border-bottom: 1px solid;
+                color: palevioletred;
+            }
+        }
+    }
+}

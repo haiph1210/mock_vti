@@ -1,0 +1,41 @@
+.table-config {
+    display: flex;
+    justify-content: start;
+    
+    table {
+      padding: 3rem 0px;
+      border-collapse: collapse;
+      border: 1px solid;
+      
+      thead,
+      tbody {
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        margin-left: 30px;
+      }
+      
+      thead {
+        color: red;
+        font-size: larger;
+        font-style: italic;
+      }
+      
+      th,
+      td {
+        padding: 0px 5rem;
+        text-align: center;
+        border: 1px solid;
+      }
+      
+      td:first-child,
+      th:first-child {
+        border-left-width: 0;
+      }
+      
+      td:last-child,
+      th:last-child {
+        border-right-width: 0;
+      }
+    }
+  }
+  

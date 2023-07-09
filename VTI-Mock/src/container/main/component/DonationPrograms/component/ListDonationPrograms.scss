@@ -1,0 +1,13 @@
+.list-dp {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.list-dp>* {
+    flex-basis: calc(33.33% - 20px);
+    /* Điều chỉnh kích thước cơ bản của mỗi mục flex */
+    margin: 10px;
+    /* Thêm một số margin giữa các mục flex */
+}

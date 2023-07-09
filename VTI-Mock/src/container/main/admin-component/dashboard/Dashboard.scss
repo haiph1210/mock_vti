@@ -1,0 +1,18 @@
+.text {
+    text-decoration: none;
+    color: black;
+
+    &.active {
+        color: white;
+        display: block;
+        background-color: #1976D2;
+
+        svg {
+            color: white;
+        }
+    }
+
+    svg {
+        color: black;
+    }
+}

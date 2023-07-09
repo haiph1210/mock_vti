@@ -1,0 +1,15 @@
+npm install @material-ui/icons 
+sass@1.49.10 
+axios@0.26.1 
+react-router-dom@6.3.0 
+@reduxjs/toolkit 
+@mui/icons-material @mui/material @emotion/styled @emotion/react
+npm install @material-ui/core @material-ui/icons
+npm install react-redux
+npm install intl  
+npm install date-fns
+npm install react-bootstrap bootstrap
+npm i --save react-select
+npm install redux-devtools-extension
+npm install redux-thunk
+npm install --save react-toastify@8.2.0 --force

@@ -1,0 +1,14 @@
+.handle-logOut {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 200px;
+    i{
+        font-size: larger;
+    }
+    button {
+        padding: 10px;
+        background-color: chartreuse;
+    }
+}

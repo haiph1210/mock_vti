@@ -1,0 +1,32 @@
+.input-form{
+    display: flex;
+    flex-direction: column;
+    .lbl{
+        font-size: larger;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 2px 0px;
+    }   
+    input{
+        padding: 13px;
+        font-size: larger;
+        border-radius: 10px;
+    }
+}
+.btn-config{
+    display: flex;
+    justify-content: flex-end;
+    button{
+        padding: 15px;
+        border-radius: 10px;
+        border: none;
+        margin-left: 10px;
+        margin-top: 10px;
+        font-size: larger;
+    }
+    .btn-1{
+        background-color: seagreen;
+    }
+    .btn-2{
+        background-color: burlywood;
+    }
+}
